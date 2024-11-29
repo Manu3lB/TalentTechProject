@@ -1,0 +1,35 @@
+{
+    "name": "moving-company-infra",
+    "version": "1.0.0",
+    "description": "Infrastructure as Code for Moving Company using AWS CDK",
+    "main": "app.js",
+    "scripts": {
+      "build": "tsc",
+      "watch": "tsc -w",
+      "lint": "eslint '**/*.ts' --quiet",
+      "format": "prettier --write '**/*.{ts,json,md}'",
+      "cdk": "cdk",
+      "synth": "cdk synth",
+      "deploy": "cdk deploy",
+      "destroy": "cdk destroy"
+    },
+    "dependencies": {
+      "aws-cdk-lib": "^2.95.0",
+      "constructs": "^10.0.0"
+    },
+    "devDependencies": {
+      "@types/node": "^20.0.0",
+      "typescript": "^5.2.0",
+      "eslint": "^8.50.0",
+      "eslint-config-prettier": "^9.0.0",
+      "eslint-plugin-prettier": "^5.0.0",
+      "prettier": "^3.0.0"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT"
+  }
+  
