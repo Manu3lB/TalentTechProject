@@ -2,9 +2,11 @@
 Proyecto implementando infraestructura como código en la nube de AWS.
 
 Introducción
+
 En un mundo cada vez más interconectado, las empresas buscan optimizar sus procesos mediante arquitecturas modernas y adaptables. Este proyecto propone una solución de infraestructura basada en servicios en la nube utilizando tecnologías de Amazon Web Services (AWS) para una empresa de mudanzas. La solución emplea microservicios, una gestión eficiente de usuarios y autenticación, además de un sistema de eventos robusto para mantener los servicios desacoplados. Todo esto garantiza escalabilidad, seguridad y adaptabilidad en las operaciones empresariales.
 
 Objetivo
+
 El objetivo principal de este proyecto es diseñar y desplegar una arquitectura de infraestructura como código para soportar las operaciones de una empresa de mudanzas. Esta arquitectura incluye:
 
 Gestión de autenticación y usuarios mediante Amazon Cognito.
@@ -12,7 +14,9 @@ Procesos automatizados y personalizables con funciones Lambda y API Gateway.
 Sistemas de eventos dinámicos utilizando EventBridge para la comunicación entre microservicios.
 Almacenamiento confiable para datos transaccionales en bases de datos relacionales.
 El sistema busca ser altamente desacoplado, fácil de escalar y seguro, apoyando así el crecimiento continuo de la empresa.
+
 Conclusión
+
 La arquitectura propuesta no solo permite una gestión eficiente de los procesos operativos de la empresa de mudanzas, sino que también sienta las bases para su crecimiento y modernización tecnológica. Al aprovechar herramientas de AWS como Cognito, Lambda, API Gateway y EventBridge, se logra un ecosistema dinámico y desacoplado, garantizando que cada microservicio pueda evolucionar independientemente. Este enfoque asegura que la solución no solo cumpla con las necesidades actuales, sino que esté preparada para enfrentar los retos futuros de la industria.
 
 Arquitectura
